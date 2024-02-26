@@ -1,12 +1,14 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
+/* COLORS
+
+#2E363E - BOLD TEXT
+#434B53 - Simple text
+#FAFAFA - Background
+
+#5F0A61 - COLOR Without focus
+#8E0292 - Hover - Focus color
+
+
 */
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,3 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+/* MAIN */
+
+.container {
+  width: 1180px;
+}
+
+.tarif-conatiner{
+  width: 1177px;
+}
+
